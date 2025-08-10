@@ -1,0 +1,60 @@
+{
+  "name": "tailwind-dark-theme",
+  "version": "0.0.0",
+  "description": "Zero-config Tailwind CSS plugin for seamless dark/light theme switching with automatic color inversion (white↔black, gray-50↔gray-950) and custom CSS variables support.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaa-abdallah1/tailwind-dark-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alaa-abdallah1/tailwind-dark-theme/issues"
+  },
+  "homepage": "https://github.com/alaa-abdallah1/tailwind-dark-theme#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepublishOnly": "pnpm run build",
+    "release": "pnpm run build && pnpm publish"
+  },
+  "keywords": [
+    "css",
+    "tailwind",
+    "tailwindcss",
+    "theme",
+    "dark-theme",
+    "light-theme"
+  ],
+  "author": "Alaa Abdallah",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/estree": "^1.0.5",
+    "@types/json-schema": "^7.0.15",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^22.15.20",
+    "lodash": "^4.17.21",
+    "tailwindcss": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  }
+}
