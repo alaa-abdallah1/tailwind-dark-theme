@@ -1,6 +1,5 @@
 # 🌙 tailwind-dark-theme
 
-[![GitHub release](https://img.shields.io/github/v/release/alaa-abdallah1/tailwind-dark-theme.svg)](https://github.com/alaa-abdallah1/tailwind-dark-theme/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 [![NPM Package](https://img.shields.io/npm/v/tailwind-dark-theme?color=red)](https://www.npmjs.com/package/tailwind-dark-theme)
 [![NPM downloads](https://img.shields.io/npm/dw/tailwind-dark-theme?color=limegreen)](https://www.npmjs.com/package/tailwind-dark-theme)
