@@ -1,6 +1,6 @@
 {
   "name": "tailwind-dark-theme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zero-config Tailwind CSS plugin for seamless dark/light theme switching with automatic color inversion (white↔black, gray-50↔gray-950) and custom CSS variables support.",
   "repository": {
     "type": "git",
